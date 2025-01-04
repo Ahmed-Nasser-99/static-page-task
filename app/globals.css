@@ -20,12 +20,29 @@
     border-radius: 21px;
     padding: theme("spacing.6");
   }
-  .static-card {
+  .tab {
+    border-radius: 14px;
+    padding: theme("spacing.2") theme("spacing.1");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 108px;
+    border: 1px solid;
+    color: theme("colors.gray.3");
+    background-color: theme("colors.white");
+    border-color: theme("colors.gray.4");
+  }
+  .tab-selected {
+    border-color: theme("colors.orange.1");
+    color: theme("colors.orange.1");
+    background-color: theme("colors.orange.2");
+    font-weight: bold;
+  }
+  .secondary-card {
     background-color: theme("colors.orange.2");
     border-radius: 18px;
     padding: theme("spacing.4") theme("spacing.2");
     display: flex;
-    flex: 1;
     width: 100%;
     gap: theme("spacing.2");
   }

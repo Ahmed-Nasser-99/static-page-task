@@ -36,7 +36,7 @@ const QRCard = () => {
         </div>
         {isOpen && (
           <>
-            <div className="static-card flex items-center gap-2 px-4">
+            <div className="secondary-card flex items-center gap-2 px-4">
               <DocumentDownloadIcon color="#FF951D" />
               <p className="text-xs text-gray-1">
                 Download the QR code or share it with your friends.

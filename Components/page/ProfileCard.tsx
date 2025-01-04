@@ -24,7 +24,7 @@ const ProfileCard = () => {
             <p className="text-gray-3">{data.account.description}</p>
           </div>
           <div className="flex items-center gap-4 w-full">
-            <div className="static-card">
+            <div className="secondary-card">
               <UserTickIcon />
               <div className="flex flex-col">
                 <p className="text-gray-1 font-bold text-sm">
@@ -33,7 +33,7 @@ const ProfileCard = () => {
                 <p className="text-orange-1 text-xs">Following</p>
               </div>
             </div>
-            <div className="static-card">
+            <div className="secondary-card">
               <FollowersIcon />
               <div className="flex flex-col">
                 <p className="text-gray-1 font-bold text-sm">
@@ -42,7 +42,7 @@ const ProfileCard = () => {
                 <p className="text-orange-1 text-xs">Followers</p>
               </div>
             </div>
-            <div className="static-card">
+            <div className="secondary-card">
               <MagicStarIcon />
               <div className="flex flex-col">
                 <div className="flex items-end gap-[2px]">

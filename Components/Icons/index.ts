@@ -8,3 +8,6 @@ export { SendSquareIcon } from "./SendSquareIcon";
 export { DocumentDownloadIcon } from "./DocumentDownloadIcon";
 export { EyeIcon } from "./EyeIcon";
 export { ArrowDownIcon } from "./ArrowDownIcon";
+export { EmptyHeartIcon } from "./EmptyHeartIcon";
+export { FilledHeartIcon } from "./FilledHeartIcon";
+export { BurgerIcon } from "./BurgerIcon";

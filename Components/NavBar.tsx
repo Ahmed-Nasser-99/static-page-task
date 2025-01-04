@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import {
   AddCircleIcon,
+  BurgerIcon,
   GlobalIcon,
   NotificationIcon,
   SearchIcon,
@@ -11,7 +12,7 @@ import { data } from "@/data";
 export const NavBar = () => {
   return (
     <div className="flex justify-center items-center p-3 bg-white w-full">
-      <div className="flex justify-between gap-5 md:w-11/12 w-full">
+      <div className="flex justify-between gap-5 md:w-11/12 w-full md:block hidden">
         <div className="flex items-center gap-5 ">
           <Image src="/logo.png" alt="logo" width={100} height={100} />
           <div className="flex items-center gap-10">
@@ -51,6 +52,25 @@ export const NavBar = () => {
             <GlobalIcon />
             <div className="w-px h-5 bg-gray-4 " />
             <p className="text-gray-1 font-bold text-lg">EN</p>
+          </div>
+        </div>
+      </div>
+      <div className="md:hidden block w-full">
+        <div className="flex justify-between items-center">
+          <div className="flex items-center gap-2">
+            <BurgerIcon />
+            <Image src="/logo.png" alt="logo" width={100} height={100} />
+          </div>
+          <div className="flex items-center gap-4 px-4">
+            <SearchIcon />
+            <NotificationIcon />
+            <Image
+              src="/avatar.jpg"
+              alt="avatar"
+              width={100}
+              height={100}
+              className="rounded-full size-10 object-cover"
+            />
           </div>
         </div>
       </div>
