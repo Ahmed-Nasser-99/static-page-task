@@ -44,7 +44,7 @@ const QRCard = () => {
             </div>
             <div className="flex items-center justify-center p-5 bg-gradient-to-r from-primary to-orange-1 rounded-2xl">
               <div className="bg-white flex flex-col items-center justify-center rounded-2xl py-2 w-full gap-2">
-                <Image src="/Logo.png" alt="qr" width={152} height={100} />
+                <Image src="/logo.png" alt="qr" width={152} height={100} />
                 <div className="flex flex-col items-center justify-center">
                   <p className="text-gray-1 from-bold text-2xl">
                     {data.account.name}

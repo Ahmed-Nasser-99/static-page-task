@@ -12,7 +12,7 @@ import { data } from "@/data";
 export const NavBar = () => {
   return (
     <div className="flex justify-center items-center p-3 bg-white w-full">
-      <div className="flex justify-between gap-5 md:w-11/12 w-full md:block hidden">
+      <div className="md:flex hidden justify-between gap-5 md:w-11/12 w-full ">
         <div className="flex items-center gap-5 ">
           <Image src="/logo.png" alt="logo" width={100} height={100} />
           <div className="flex items-center gap-10">
@@ -42,7 +42,7 @@ export const NavBar = () => {
             height={100}
             className="rounded-full size-10 object-cover"
           />
-          <button className="btn-primary text-white px-4 py-2 rounded-[10px]">
+          <button className="btn-primary text-white px-4 py-2 rounded-[10px] lg:block hidden">
             <div className="flex items-center gap-1">
               <AddCircleIcon />
               <p className="font-bold text-sm">Add new product</p>

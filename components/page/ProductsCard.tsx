@@ -7,7 +7,7 @@ const ProductsCard = () => {
   return (
     <div className="card flex-2 w-full">
       <div className="flex flex-col gap-6">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center flex-wrap gap-4">
           <div className="flex items-center gap-2">
             {data.tabs.map((tab) => (
               <p
@@ -19,7 +19,7 @@ const ProductsCard = () => {
             ))}
           </div>
           {/* Fixed as the design in figma */}
-          <button className="btn-primary text-white px-4 py-2 rounded-[10px] md:static fixed right-4 top-1/2 -translate-y-1/2 z-10">
+          <button className="btn-primary px-4 py-2 rounded-[10px] md:relative fixed right-4 top-1/2  z-10">
             <div className="flex items-center gap-1">
               <AddCircleIcon />
               <p className="font-bold text-sm">Add Review</p>
