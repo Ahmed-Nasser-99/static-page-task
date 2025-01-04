@@ -33,5 +33,4 @@ export default {
     },
   },
   plugins: [],
-  enabled: process.env.NODE_ENV === "production"
 } satisfies Config;
