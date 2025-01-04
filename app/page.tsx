@@ -1,6 +1,6 @@
-import ProductsCard from "@/theComponents/page/ProductsCard";
-import ProfileCard from "@/theComponents/page/ProfileCard";
-import QRCard from "@/theComponents/page/QRCard";
+import ProductsCard from "@/components/page/ProductsCard";
+import ProfileCard from "@/components/page/ProfileCard";
+import QRCard from "@/components/page/QRCard";
 
 export default function Home() {
   return (
