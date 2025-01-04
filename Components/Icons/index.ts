@@ -1,0 +1,10 @@
+export { SearchIcon } from "./SearchIcon";
+export { NotificationIcon } from "./NotificationIcon";
+export { AddCircleIcon } from "./AddCircleIcon";
+export { GlobalIcon } from "./GlobalIcon";
+export { UserTickIcon } from "./UserTickIcon";
+export { MagicStarIcon } from "./MagicStarIcon";
+export { SendSquareIcon } from "./SendSquareIcon";
+export { DocumentDownloadIcon } from "./DocumentDownloadIcon";
+export { EyeIcon } from "./EyeIcon";
+export { ArrowDownIcon } from "./ArrowDownIcon";
